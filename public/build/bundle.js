@@ -388,8 +388,8 @@ var app = (function () {
     	const block = {
     		c: function create() {
     			main = element("main");
-    			h1 = element("h1");
-    			t0 = text("Hello Bro ");
+    			/*h1 = element("h1");
+    			t0 = text("Hello Bro ");*/
     			t1 = text(/*name*/ ctx[0]);
     			t2 = text("!");
     			t3 = space();
